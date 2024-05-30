@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "leaflet-draggable-lines": "^3.0.2"
+  }
+}
