@@ -31,17 +31,10 @@
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
 
-        var pointA = new L.LatLng(63.635308, 23);
-        var pointB = new L.LatLng(65.984461, 24.70641);
-        var pointList = [pointA, pointB];
-
-        var firstpolyline = new L.Polyline(pointList, {
-        color: 'red',
-        weight: 3,
-        opacity: 0.5
-        });
-
-        map.addLayer(firstpolyline);
+        const polyline = new L.Polyline([
+            [63.635308, 23],
+            [65.984461, 24.70641]
+        ], { color: '#0000ff', weight: 10 }).addTo(map);
     </script>
 </body>
 </html>
